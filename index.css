@@ -1,0 +1,131 @@
+.main-header {
+    margin-top: 110px;
+    margin-bottom: 96px;
+}
+
+.header-text-1 {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 48px;
+    letter-spacing: -4.5%;
+    font-family: 'PT Serif', serif;
+}
+
+.header-text-2 {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    letter-spacing: -4.5%;
+    font-family: 'Poppins', sans-serif;
+}
+
+.header-sub-text {
+    width: 439px;
+    font-weight: 400;
+    line-height: 27px;
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.image {
+    width: 238px;
+    height: 341px;
+}
+.image2 {
+    width: 238px;
+    height: 341px;
+    margin-top: 132px;
+}
+
+.img-subtext {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 15px;
+}
+
+.img-subtext-2 {
+    position: relative;
+    bottom: 400px;
+    left: 247px;
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+    margin: 0;
+    display: inline;
+    font-family: 'PT Serif', serif;
+    font-size: 12px;
+    line-height: 16px;
+    font-weight: 400;
+}
+.mobile{
+    display: none;
+}
+.footer-text{
+    text-align: center;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #A9A9A9;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 115px;
+    margin-bottom: 24px;
+}
+@media (min-width: 300px) and (max-width: 767px) {
+    .main-header {
+        margin-top: 71px;
+        margin-bottom: 38px;
+    }
+    .header-sub-text {
+        width: 333px;
+        font-weight: 400;
+        line-height: 21px;
+        font-size: 14px;
+        font-family: 'Poppins', sans-serif;
+    }
+    .image {
+        width: 139px;
+        height: 209px;
+    }
+    .img-subtext {
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 21px;
+        margin-top: 10px;
+        font-family: 'Poppins', sans-serif;
+    }
+    .img-subtext-2 {
+        position: relative;
+        bottom: 257px;
+        left: 142px;
+        writing-mode: vertical-rl;
+        text-orientation: mixed;
+        margin: 0;
+        display: inline;
+        font-family: 'PT Serif', serif;
+        font-size: 10px;
+        line-height: 13.25px;
+        font-weight: 400;
+    }
+    .image2 {
+        width: 139px;
+        height: 209px;
+        margin-top: 64px;
+    }
+    .dekstop{
+        display: none;
+    }
+    .mobile{
+        display: flex;
+    }
+    .footer-text{
+        text-align: center;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 17px;
+        color: #A9A9A9;
+        font-family: 'Montserrat', sans-serif;
+        margin-top: 50px;
+        margin-bottom: 24px;
+    }
+}
